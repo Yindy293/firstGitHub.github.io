@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h1 style="color:darksalmon;">Tandartsafspraak</h1>
+  <p>Een tandarts is gespecialiseerd in mondgezondheid. Tandartsen hebben om hun beroep te mogen uitoefenen een academische achtergrond op het gebied van de tandheelkunde. In Nederland is de titel tandarts beschermd en om deze te mogen voeren moet men in het BIG-register zijn geregistreerd.
+Er zijn in de tandheelkunde, net zoals in de geneeskunde, verschillende specialisaties. Een tandarts die in het aanbrengen van beugels is gespecialiseerd is een orthodontist, terwijl een specialist in mondziekten, kaak- en aangezichtschirurgie (mka-chirurg) zowel tandarts als arts is en in het ziekenhuis zwaardere medische ingrepen aan de mond uitvoert. Naast specialisaties kent de tandheelkunde ook differentiaties. Een gedifferentieerd tandarts is een tandarts die zich op een specifiek deelgebied van de tandheelkunde heeft toegelegd maar geen extra bevoegdheden heeft ten opzichte van de tandarts 'algemeen practicus' en daarom geen specialist is. Een tandarts-parodontoloog behandelt problemen aan het tandvlees, tandarts-implantologen leggen zich toe op het plaatsen van implantaten, tandarts-endodontologen op wortelkanaalbehandelingen en tandarts-gnathologen op kaakgewrichtsklachten.
+De werkruimte van een tandarts heet in Vlaanderen vaak tandartskabinet, in Nederland is het een praktijk. Tandartsen worden bij de behandeling bijgestaan door één of meer assistenten.</p>
+
+<figure>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Dentistry.jpg/520px-Dentistry.jpg"
+alt="Tandarts aan het werk" title="Tandarts aan het werk"
+width="300" height="250">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Zahnarzt2.jpg/520px-Zahnarzt2.jpg"
+alt="Tandartsen bezig met mondspiegel en afzuigslang" title="Tandartsen bezig met mondspiegel en afzuigslang"
+width="300" height="250">
+<img
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Tandarts_praktijk.jpg/520px-Tandarts_praktijk.jpg"
+alt="Oude tandartspraktijk in een museum in Hilvarenbeek" title="Oude tandartspraktijk in een museum in Hilvarenbeek"
+width="300" height="250">
+<figcaption>Afbeeldingen van Tandartsen in de praktijk</figcaption>
+</figure>
+
+<br>
+
+<form>
+<fieldset>
+<legend>Persoonlijke gegevens</legend><br>
+<label for="naam">Naam:</label>
+<input id="naam" type="text" name="naam"><br><br>
+<input type="radio" name="geslacht" value="man" checked>Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders <br><br>
+<label for="adres">Adres:</label>
+<input type="text" id="adres" name="adres"><br><br>
+<label for="postcode">Postcode:</label>
+<input type="text" id="postcode" name="postcode"><br><br>
+<label for=" woonplaats">Woonplaats:</label>
+<input type="text" id="woonplaats" name="woonplaats"><br><br>
+</fieldset>
+
+<br>
+
+<form>
+<fieldset>
+<legend>Beschrijving van de klachten</legend><br>
+<b> Selecteer uw klachten</b>
+<br>
+<input type="checkbox" name="onderwerpen" value="ja">Zwelling
+<input type="checkbox" name="onderwerpen" value="ja">Stekende, kloppende pijn
+<input type="checkbox" name="onderwerpen" value="ja">Ontsteking
+<input type="checkbox" name="onderwerpen" value="ja">Hoofdpijn
+<br>
+<br>
+<label for="profielfoto">Selecteer een profielfoto</label>
+<input type="file" id="profielfoto" name="profielfoto"><br><br>
+</fieldset>
+
+<br>
+
+<form>
+<fieldset>
+<legend>Toelichting van de klachten</legend>
+<br>
+<tr>
+  <td><b>Toelicht uw klachten</b></td><br>
+  <td><textarea name ="bericht" maxlength ="1500">
+  </textarea>
+  </td>
+  </tr>
+<br>
+<br>
+<b> Selecteer een datum</b>
+<br>
+<input type="date" name="datum" max="2080-12-31"><br>
+<br>
+</fieldset>
+<br>
+<input type="submit" value="Verzend">
+
+<br>
+
+<h1>Contactformulier</h1>
+<form
+id="contactform"
+action="https://formspree.io/f/maykybeb"
+method="post">
+<form id="contactform" method="post">
+<input type="text" name="name" placeholder="Uw naam">
+<br>
+<br>
+<input type="email" name="_replyto" placeholder="Uw email">
+<br>
+<br>
+<input type="hidden" name="_subject" value="Website contact"/>
+<textarea name="message" placeholder="Uw bericht">
+</textarea>
+<br>
+<br>
+<input type="text" name="_gotcha" style="display:none"/>
+<input type="submit" value="Verzend">
+<br>
+</form>
+
+</form>
+</body>
+</html>
